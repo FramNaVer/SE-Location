@@ -1,0 +1,53 @@
+
+#map {
+    width: 100%;
+    height: 400px;
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.container{
+    height: 500px;
+    width: 100%;
+    margin-top: 2rem;
+}
+
+.container h1{
+    text-align: center;
+    font-size: 1.5rem;
+    font-weight: 500;
+}
+
+.mylocation{
+    display: flex;
+    justify-content: center;
+}
+
+
+.content-map{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+button{
+    width: 400px;
+    margin: 0 auto;
+    border-radius: 1.5rem;
+    transition: .3s;
+}
+
+.content-map #output{
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+button:hover{
+    color: aliceblue;
+    background-color: black;
+}
